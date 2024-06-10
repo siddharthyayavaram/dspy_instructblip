@@ -7,7 +7,7 @@ https://huggingface.co/Salesforce/instructblip-flan-t5-xl
 Clone the repo
 
 ``` 
-cd dspy-sa
+cd dspy_sa
 pip install -r requirements.txt
 ```
 
