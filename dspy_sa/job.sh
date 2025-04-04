@@ -8,8 +8,6 @@
 #SBATCH -o slurm.%j.out
 #SBATCH -e slurm.%j.err
 #SBATCH --gres=gpu:1
-#SBATCH --mail-user=f20213117@hyderabad.bits-pilani.ac.in
-#SBATCH --mail-type=NONE
 module load cuda-11.7.1-gcc-11.2.0-gypzm3r
 
 # Get the Python file name from the command line argument
